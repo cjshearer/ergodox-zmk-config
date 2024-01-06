@@ -1,4 +1,5 @@
 {
+	"Keyboard": "ergodox",
 	"Board": "slicemk_usbc_mdbt50q_blue",
 	"Shield": "slicemk_ergodox_dongle",
 	"Kconfig": null,
@@ -220,7 +221,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"BSLH"
+						"BACKSLASH"
 					]
 				},
 				{
@@ -316,7 +317,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"QUOT"
+						"SINGLE_QUOTE"
 					]
 				},
 				{
@@ -403,7 +404,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"CMMA"
+						"COMMA"
 					]
 				},
 				{
@@ -411,7 +412,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"DOT"
+						"PERIOD"
 					]
 				},
 				{
@@ -419,7 +420,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"FSLH"
+						"SLASH"
 					]
 				},
 				{
@@ -427,8 +428,8 @@
 					"Behavior": "&mt",
 					"Notes": "",
 					"Args": [
-						"RSHIFT",
-						"CAPS"
+						"RIGHT_SHIFT",
+						"CAPSLOCK"
 					]
 				},
 				{
@@ -436,7 +437,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"LCTRL"
+						"LEFT_CONTROL"
 					]
 				},
 				{
@@ -444,7 +445,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"LGUI"
+						"LEFT_GUI"
 					]
 				},
 				{
@@ -452,7 +453,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"LALT"
+						"LEFT_ALT"
 					]
 				},
 				{
@@ -460,7 +461,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"DOWN"
+						"DOWN_ARROW"
 					]
 				},
 				{
@@ -468,27 +469,31 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"UP"
+						"UP_ARROW"
 					]
 				},
 				{
 					"Name": "⬅️🏠",
-					"Behavior": "&left_home",
+					"Behavior": "$custom",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"&left_home"
+					]
 				},
 				{
 					"Name": "➡️🔚",
-					"Behavior": "&right_end",
+					"Behavior": "$custom",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"&right_end"
+					]
 				},
 				{
 					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"RALT"
+						"RIGHT_ALT"
 					]
 				},
 				{
@@ -496,7 +501,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"RGUI"
+						"RIGHT_GUI"
 					]
 				},
 				{
@@ -504,7 +509,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"RCTRL"
+						"RIGHT_CONTROL"
 					]
 				},
 				{
@@ -520,7 +525,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"ESC"
+						"ESCAPE"
 					]
 				},
 				{
@@ -562,7 +567,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"INS"
+						"INSERT"
 					]
 				},
 				{
@@ -570,7 +575,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"ENTER"
+						"RETURN"
 					]
 				},
 				{
@@ -586,7 +591,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"K_APP"
+						"K_APPLICATION"
 					]
 				},
 				{
@@ -594,7 +599,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"DEL"
+						"DELETE"
 					]
 				}
 			]
@@ -1256,7 +1261,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"NUMBER_7"
+						"KP_NUMBER_7"
 					]
 				},
 				{
@@ -1264,7 +1269,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"NUMBER_8"
+						"KP_NUMBER_8"
 					]
 				},
 				{
@@ -1272,7 +1277,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"NUMBER_9"
+						"KP_NUMBER_9"
 					]
 				},
 				{
@@ -1340,7 +1345,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"NUMBER_4"
+						"KP_NUMBER_4"
 					]
 				},
 				{
@@ -1348,7 +1353,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"NUMBER_5"
+						"KP_NUMBER_5"
 					]
 				},
 				{
@@ -1356,7 +1361,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"NUMBER_6"
+						"KP_NUMBER_6"
 					]
 				},
 				{
@@ -1436,7 +1441,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"NUMBER_1"
+						"KP_NUMBER_1"
 					]
 				},
 				{
@@ -1444,7 +1449,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"NUMBER_2"
+						"KP_NUMBER_2"
 					]
 				},
 				{
@@ -1452,7 +1457,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"NUMBER_3"
+						"KP_NUMBER_3"
 					]
 				},
 				{
@@ -1782,7 +1787,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"EXCL"
+						"EXCLAMATION"
 					]
 				},
 				{
@@ -1790,7 +1795,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"AT"
+						"AT_SIGN"
 					]
 				},
 				{
