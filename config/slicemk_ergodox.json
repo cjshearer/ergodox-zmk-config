@@ -2,7 +2,7 @@
 	"Keyboard": "ergodox",
 	"Board": "slicemk_usbc_mdbt50q_blue",
 	"Shield": "slicemk_ergodox_dongle",
-	"Kconfig": null,
+	"Kconfig": {},
 	"Layers": [
 		{
 			"Name": "main",
@@ -1172,15 +1172,19 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"KP_NUMLOCK"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"KP_NUMBER_0"
+					]
 				},
 				{
 					"Name": "",
