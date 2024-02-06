@@ -457,23 +457,23 @@
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&kp",
+					"Name": "↓ page",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"DOWN_ARROW"
+						"&down_page_down"
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&kp",
+					"Name": "↑ page",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"UP_ARROW"
+						"&up_page_up"
 					]
 				},
 				{
-					"Name": "⬅️🏠",
+					"Name": "⬅️ home",
 					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
@@ -481,7 +481,7 @@
 					]
 				},
 				{
-					"Name": "➡️🔚",
+					"Name": "➡️ end",
 					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
@@ -2549,5 +2549,5 @@
 			]
 		}
 	],
-	"Custom": "/ {    \n    behaviors {\n        left_home: left_home {\n            compatible = \"zmk,behavior-mod-morph\";\n            label = \"LEFT_HOME\";\n            #binding-cells = <0>;\n            bindings = <&kp LEFT>, <&kp HOME>;\n            mods = <(MOD_RALT)>;\n        };\n\t\tright_end: right_end {\n            compatible = \"zmk,behavior-mod-morph\";\n            label = \"RIGHT_END\";\n            #binding-cells = <0>;\n            bindings = <&kp RIGHT>, <&kp END>;\n            mods = <(MOD_RALT)>;\n\t\t};\n    };\n};"
+	"Custom": "/ {    \n    behaviors {\n        down_page_down: down_page_down {\n            compatible = \"zmk,behavior-mod-morph\";\n            label = \"DOWN_PAGE_DOWN\";\n            #binding-cells = <0>;\n            bindings = <&kp DOWN_ARROW>, <&kp PAGE_DOWN>;\n            mods = <(MOD_RALT)>;\n        };\n        up_page_up: up_page_up {\n            compatible = \"zmk,behavior-mod-morph\";\n            label = \"UP_PAGE_UP\";\n            #binding-cells = <0>;\n            bindings = <&kp UP_ARROW>, <&kp PAGE_UP>;\n            mods = <(MOD_RALT)>;\n        };\n        left_home: left_home {\n            compatible = \"zmk,behavior-mod-morph\";\n            label = \"LEFT_HOME\";\n            #binding-cells = <0>;\n            bindings = <&kp LEFT_ARROW>, <&kp HOME>;\n            mods = <(MOD_RALT)>;\n        };\n\t\tright_end: right_end {\n            compatible = \"zmk,behavior-mod-morph\";\n            label = \"RIGHT_END\";\n            #binding-cells = <0>;\n            bindings = <&kp RIGHT_ARROW>, <&kp END>;\n            mods = <(MOD_RALT)>;\n\t\t};\n    };\n};"
 }
