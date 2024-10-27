@@ -1,5 +1,19 @@
-on: [push, pull_request, workflow_dispatch]
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - config/**
+      - build.yaml
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-runner
+      - name: Build
+        run: nix -vL --show-trace build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zmk_firmware
+          path: result
