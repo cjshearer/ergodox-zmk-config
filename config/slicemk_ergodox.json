@@ -1,8 +1,16 @@
 {
+	"Modified": "0001-01-01T00:00:00Z",
 	"Keyboard": "ergodox",
 	"Board": "slicemk_usbc_mdbt50q_blue",
 	"Shield": "slicemk_ergodox_dongle",
 	"Kconfig": {},
+	"Advanced": {
+		"Logging": "",
+		"KRO": "",
+		"MouseMove": "",
+		"MouseScroll": "",
+		"BTParams": ""
+	},
 	"Layers": [
 		{
 			"Name": "main",
@@ -1166,12 +1174,6 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
@@ -1218,17 +1220,17 @@
 				},
 				{
 					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
 						"C_VOLUME_UP"
 					]
-				},
-				{
-					"Name": "",
-					"Behavior": "&none",
-					"Notes": "",
-					"Args": []
 				},
 				{
 					"Name": "",
@@ -1304,6 +1306,12 @@
 				},
 				{
 					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
@@ -1340,12 +1348,6 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
@@ -1367,6 +1369,12 @@
 					"Args": [
 						"KP_NUMBER_6"
 					]
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -1436,12 +1444,6 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
@@ -1463,6 +1465,12 @@
 					"Args": [
 						"KP_NUMBER_3"
 					]
+				},
+				{
+					"Name": "",
+					"Behavior": "&none",
+					"Notes": "",
+					"Args": []
 				},
 				{
 					"Name": "",
